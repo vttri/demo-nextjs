@@ -1,5 +1,9 @@
 export default function Footer() {
     return (
-        <footer>This is footer</footer>
+        <>
+            <footer>Thanks for watching</footer>
+            <hr />
+        </>
+
     )
 }

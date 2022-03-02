@@ -9,9 +9,9 @@ export default function Navbar() {
                 </Link>
             </div>
             <div>
-                <Link href="/about">
+                <Link href="/usercsr">
                     <a>All Users CSR</a>
-                    
+
                 </Link>
                 <Link href="/users">
                     <a>All Users SSR</a>

@@ -5,7 +5,6 @@ import styles from '../../styles/Employees.module.css'
 export async function getServerSideProps () {
     const res = await fetch('https://6050632d534609001766fa26.mockapi.io/users')
     const employees = await res.json()
-    console.log(employees)
     return {
         props: {
             employees,

@@ -3,10 +3,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   background: #f2f2f2;
-  color: #333
-  
+  color: #333;
 }
 
 a {
@@ -14,12 +13,12 @@ a {
   text-decoration: none;
 }
 
-.content{
+.content {
   max-width: 1024px;
   margin: 0 auto;
 }
 
-nav{
+nav {
   margin: 10px auto 80px;
   padding: 10px 0;
   display: flex;
@@ -28,10 +27,14 @@ nav{
   border-bottom: 1px solid #ddd;
 }
 
-nav a:not(:first-child){
+nav a:not(:first-child) {
   margin-left: 20px;
 }
 
 * {
   box-sizing: border-box;
+}
+footer {
+  text-align: center;
+  color: #333;
 }
