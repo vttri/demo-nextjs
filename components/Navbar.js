@@ -11,6 +11,7 @@ export default function Navbar() {
             <div>
                 <Link href="/about">
                     <a>All Users CSR</a>
+                    
                 </Link>
                 <Link href="/users">
                     <a>All Users SSR</a>
