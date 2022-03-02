@@ -1,0 +1,11 @@
+.employee {
+  padding: 2px 16px;
+  background: #fff;
+  display: block;
+  margin: 20px 5px;
+  border-left: 8px solid #fff;
+}
+
+.employee:hover {
+  border-left: 8px solid #ffbf49;
+}
