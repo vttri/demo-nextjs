@@ -38,9 +38,6 @@ export default function Home() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
-          <Link href="/employees/">
-            <a className={styles.btn}>All employees</a>
-          </Link>
         </div>
       </div>
     </>
