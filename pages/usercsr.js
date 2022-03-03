@@ -23,8 +23,8 @@ export default function Profile() {
 
   }, [])
 
-  if (isLoading) return <p>Loading...</p>
-  if (!data) return <p>No profile data</p>
+  // if (isLoading) return <p>Loading...</p>
+  // if (!data) return <p>No profile data</p>
 
   return (
     <>
@@ -33,7 +33,7 @@ export default function Profile() {
       </Head>
       <div>
         <h1>All Users CSR</h1>
-        {data.map((employee) => (
+        {data?.map((employee) => (
           <Link key={employee.id} href={`/employees/${encodeURIComponent(employee.id)}`}>
             <a className={styles.employee}>
               <h3>{employee.name}</h3>

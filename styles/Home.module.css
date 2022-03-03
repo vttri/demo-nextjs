@@ -16,3 +16,12 @@
   color: black;
   text-align: center;
 }
+.btnDetail{
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px 0;
+  background: #ffbf42;
+  border-radius: 4px;
+  color: black;
+}

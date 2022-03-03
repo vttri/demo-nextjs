@@ -38,3 +38,7 @@ footer {
   text-align: center;
   color: #333;
 }
+
+.wrapper{
+  position: relative;
+}
